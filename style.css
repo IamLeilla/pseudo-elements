@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:700");
+
+.body {
+  background:black ;
+  text-align:center;
+}
+
+h1::before {
+  content:'';
+  color:rgb(243, 241, 241);
+  font-family:'Oswald';
+  font-weight:700;
+  position:relative;  
+  margin:30px auto;
+  text-transform:uppercase;
+  width:550px;
+}
